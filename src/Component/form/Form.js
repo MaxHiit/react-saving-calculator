@@ -83,7 +83,6 @@ function Form(props) {
             placeholder="1"
             name="selectedOption"
             value="years"
-            // checked={state.selectedOption === "years"}
             onChange={handleChangeOption}
           />
           <span className="checkmark"></span>
@@ -95,8 +94,6 @@ function Form(props) {
             placeholder="1"
             name="selectedOption"
             value="months"
-            // checked={state.selectedOption === "months"}
-            checked
             onChange={handleChangeOption}
           />
           <span className="checkmark"></span>
