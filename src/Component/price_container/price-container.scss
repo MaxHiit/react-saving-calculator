@@ -1,0 +1,48 @@
+.main-content__left {
+  flex-grow: 2;
+  //   border: 1px solid rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .img {
+    width: 100%;
+
+    svg {
+      width: 100%;
+      fill: #bbbcc2;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    color: #bbbcc2;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 5rem;
+    background: linear-gradient(
+      to right,
+      #81d895,
+      #7bd697,
+      #76d499,
+      #70d29b,
+      #6bd09d,
+      #65ce9f,
+      #5fcba2,
+      #5ac9a4,
+      #53c6a7,
+      #4bc4aa,
+      #45c1ad,
+      #3fbeaf
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    // text-shadow: 0px 2px 50px rgba(230, 230, 234, 1);
+  }
+}

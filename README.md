@@ -6,7 +6,7 @@ Saving Calculator App
 
 The design was taken from Dribble and created by [Mariana Konstantinova](https://dribbble.com/Maryana_Kons)
 
-![saving-calculator-app design](./src/assets/img/design.png)
+![saving-calculator-app design](./src/img/design.png)
 
 ### How to use it in local ?
 
